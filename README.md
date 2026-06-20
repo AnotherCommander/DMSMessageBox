@@ -21,14 +21,13 @@ used for the normal MessageBox Win32 API function.
 
 Originally created for Oolite (https://oolite.space) but never
 made it there. This is how it would look with Oolite's --help
-message box in dark mode. Left is current standard MS MessageBox,
-right is DMSMessageBox used instead. Both are in dark mode, but
-DMSMessageBox actually honors it.
-<img width="1034" height="740" alt="DMSMessageBoxVsMessageBox" src="https://github.com/user-attachments/assets/c0d75540-9f06-432c-bc81-7aabdbb5a654" />
+message box in dark mode. You can see that DMSMessageBox actually
+honors it.
+<img width="609" height="747" alt="image" src="https://github.com/user-attachments/assets/6b24a44b-a93c-431b-a1aa-c63cb49b3305" />
 
 
 ## Usage
-Build DMSMEssageBox with  
+Build DMSMessageBox with  
 `clang -c DMSMessageBox.c -I. -o DMSMessageBox.o`
 
 Then you can simply link it with your projects (see example.c):  
