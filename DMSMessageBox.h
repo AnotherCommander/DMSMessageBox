@@ -2,6 +2,7 @@
 
 DMSMessageBox.h
 
+Copyright (C) 2026 by AnotherCommander
 
 A Dark Mode - Sensitive implementation of MessageBox.
 Supports MB_OK, MB_YESNO and MB_OKCANCEL message boxes
