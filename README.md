@@ -18,3 +18,10 @@ implementation which can be called either selectively
 with the W or A suffix respectively or automatically by
 simply calling DMSMessageBox with the typical parameters
 used for the normal MessageBox Win32 API function.
+
+Originally created for Oolite (https://oolite.space) but never
+made it there. This is how it would look with Oolite's --help
+message box in dark mode. Left is current standard MS MessageBox,
+right is DMSMessageBox used instead. Both are in dark mode, but
+DMSMessageBox actually honors it.
+<img width="1034" height="740" alt="DMSMessageBoxVsMessageBox" src="https://github.com/user-attachments/assets/c0d75540-9f06-432c-bc81-7aabdbb5a654" />
