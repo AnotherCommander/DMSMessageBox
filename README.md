@@ -25,3 +25,11 @@ message box in dark mode. Left is current standard MS MessageBox,
 right is DMSMessageBox used instead. Both are in dark mode, but
 DMSMessageBox actually honors it.
 <img width="1034" height="740" alt="DMSMessageBoxVsMessageBox" src="https://github.com/user-attachments/assets/c0d75540-9f06-432c-bc81-7aabdbb5a654" />
+
+
+## Usage
+Build DMSMEssageBox with  
+`clang -c DMSMessageBox.c -I. -o DMSMessageBox.o`
+
+Then you can simply link it with your projects (see example.c):  
+`clang -o DMSMessageBoxExample.exe example.c DMSMessageBox.o -I. -ldwmapi -lcomctl32 -mwindows`
